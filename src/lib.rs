@@ -15,7 +15,7 @@ pub use directory_entry::{
 pub use error::ISOError;
 pub(crate) use fileref::FileRef;
 pub use fileref::ISO9660Reader;
-use parse::VolumeDescriptor;
+pub use parse::VolumeDescriptor;
 
 pub type Result<T> = result::Result<T, ISOError>;
 

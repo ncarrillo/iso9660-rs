@@ -6,4 +6,4 @@ mod directory_entry;
 mod volume_descriptor;
 
 pub use self::directory_entry::{DirectoryEntryHeader, FileFlags};
-pub use self::volume_descriptor::VolumeDescriptor;
+pub use self::volume_descriptor::*;
