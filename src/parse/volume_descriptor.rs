@@ -15,7 +15,7 @@ use crate::ISOError;
 
 #[allow(dead_code)]
 #[derive(Clone, Debug)]
-pub(crate) enum VolumeDescriptor {
+pub enum VolumeDescriptor {
     Primary {
         system_identifier: String,
         volume_identifier: String,

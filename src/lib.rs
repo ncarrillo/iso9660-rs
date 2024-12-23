@@ -27,7 +27,7 @@ mod parse;
 pub struct ISO9660<T: ISO9660Reader> {
     _file: FileRef<T>,
     pub root: ISODirectory<T>,
-    primary: VolumeDescriptor,
+    pub primary: VolumeDescriptor,
 }
 
 macro_rules! primary_prop_str {
